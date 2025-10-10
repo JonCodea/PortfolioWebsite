@@ -35,7 +35,7 @@ export function AboutSection() {
 
           <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3">
             <a href="/#projects" className="text-sm text-black underline">View projects</a>
-            <a href="/resume.pdf" className="text-sm text-black underline">Download resume</a>
+            <a href="/resume.pdf" download className="text-sm text-black underline">Download resume</a>
           </div>
         </div>
         </Reveal>

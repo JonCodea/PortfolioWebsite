@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan Edwards - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Calibri', 'Segoe UI', Arial, sans-serif;
+            line-height: 1.4;
+            color: #000;
+            background: white;
+            padding: 0;
+        }
+        
+        .resume {
+            max-width: 8.5in;
+            margin: 0 auto;
+            background: white;
+            padding: 0.5in 0.6in;
+            min-height: 11in;
+        }
+        
+        header {
+            text-align: center;
+            border-bottom: 2px solid #000;
+            padding-bottom: 8px;
+            margin-bottom: 12px;
+        }
+        
+        h1 {
+            font-size: 20pt;
+            font-weight: bold;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .contact-info {
+            font-size: 9pt;
+            line-height: 1.3;
+        }
+        
+        .contact-info a {
+            color: #000;
+            text-decoration: none;
+        }
+        
+        .section {
+            margin-bottom: 14px;
+        }
+        
+        h2 {
+            font-size: 11pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 1px solid #000;
+            padding-bottom: 2px;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+        
+        .summary {
+            font-size: 9.5pt;
+            line-height: 1.35;
+            text-align: justify;
+        }
+        
+        .education-item, .experience-item, .project-item {
+            margin-bottom: 10px;
+            page-break-inside: avoid;
+        }
+        
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 2px;
+        }
+        
+        .item-title {
+            font-weight: bold;
+            font-size: 10pt;
+        }
+        
+        .item-date {
+            font-size: 9pt;
+            font-style: italic;
+        }
+        
+        .item-subtitle {
+            font-size: 9.5pt;
+            margin-bottom: 3px;
+        }
+        
+        .item-description {
+            font-size: 9pt;
+            line-height: 1.3;
+        }
+        
+        .tech-stack {
+            font-size: 8.5pt;
+            font-style: italic;
+            margin-top: 1px;
+            margin-bottom: 3px;
+        }
+        
+        ul {
+            margin-left: 18px;
+            margin-top: 3px;
+        }
+        
+        ul li {
+            margin-bottom: 2px;
+            font-size: 9pt;
+            line-height: 1.25;
+        }
+        
+        .skills-section {
+            font-size: 9pt;
+            line-height: 1.4;
+        }
+        
+        .skill-item {
+            margin-bottom: 4px;
+        }
+        
+        .skill-item strong {
+            font-weight: bold;
+            display: inline;
+        }
+        
+        .grades-inline {
+            font-size: 9pt;
+            margin-top: 3px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .resume {
+                padding: 0.5in 0.6in;
+                box-shadow: none;
+            }
+            
+            .section {
+                page-break-inside: avoid;
+            }
+        }
+        
+        @page {
+            size: letter;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <header>
+            <h1>Jonathan Edwards</h1>
+            <div class="contact-info">
+                <a href="mailto:edwardsjonathan1205@gmail.com">edwardsjonathan1205@gmail.com</a> | <a href="tel:+447399554396">07399 554396</a> | <a href="https://linkedin.com/in/jonathan-edwards-1400b730a" target="_blank">linkedin.com/in/jonathan-edwards-1400b730a</a> | <a href="https://jonathan-edwards.uk" target="_blank">jonathan-edwards.uk</a> | <a href="https://github.com/JonCodea" target="_blank">github.com/JonCodea</a> | United Kingdom
+            </div>
+        </header>
+
+        <section class="section">
+            <h2>Professional Summary</h2>
+            <p class="summary">
+                Software Engineering student (BEng, Canterbury Christ Church University, 2024–2028) with demonstrated experience building full-stack, data-driven, and AI-enabled applications. Proficient in cross-platform development using React/React Native with TypeScript, Python data tools with forecasting models, database systems with Supabase and PostgreSQL, and game development with Godot Engine. Skilled at translating user requirements into reliable software through iterative development, testing, and documentation.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>Key Achievements</h2>
+            <ul>
+                <li>Recipient of the <em>Skinners Award</em> for achieving the highest A-Level grades in Year 13 (2024).</li>
+                <li>Developed multiple full-stack and AI-integrated projects using React, TypeScript, Python and Supabase.</li>
+                <li>Achieved strong first-year university results (Programming Design & Development: 88%; Mathematics for Computer Science: 95%).</li>
+                <li>Led Agile sprints and collaboration on a cross-platform app (React/React Native) using GitHub and Figma prototypes.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Education</h2>
+
+            <div class="education-item">
+                <div class="item-header">
+                    <div class="item-title">Canterbury Christ Church University</div>
+                    <div class="item-date">2024 – 2028</div>
+                </div>
+                <div class="item-subtitle">BEng (Hons) Software Engineering</div>
+                <div class="grades-inline">
+                    <strong>Year 1:</strong> Programming Design & Development (88%), Mathematics for Computer Science (95%), Ethics & Employability (78%), Fundamentals of Computer Systems (74%), Computational Thinking (57%)
+                </div>
+                <div class="grades-inline">
+                    <strong>Year 2:</strong> Computer Networking, Database Design, Project & Professional Skills, Computer Security, Software Engineering, Web Programming
+                </div>
+            </div>
+
+            <div class="education-item">
+                <div class="item-header">
+                    <div class="item-title">Marsh Academy Sixth Form</div>
+                    <div class="item-date">2022 – 2024</div>
+                </div>
+                <div class="item-subtitle">A Levels</div>
+                <div class="grades-inline">
+                    A Levels: Computer Science, Mathematics, LIBF Financial Studies
+                </div>
+                <div class="grades-inline">
+                    <strong>Award:</strong> <em>Skinners Award</em> – Achieved the highest A-Level grades in Year 13 (2024)
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Technical Projects</h2>
+            
+            <div class="project-item">
+                <div class="item-header">
+                    <div class="item-title">Progresso – AI-Integrated Self-Improvement App (Lead Developer)</div>
+                    <div class="item-date">2025</div>
+                </div>
+                <div class="tech-stack">React, React Native, TypeScript, Supabase, Deepseek API, Figma, GitHub Codespaces</div>
+                <ul>
+                    <li>Built cross-platform web and mobile clients with gamified tasks, streaks, rewards, and leaderboards for user engagement.</li>
+                    <li>Integrated AI chatbot assistant using Deepseek API; implemented Supabase authentication and PostgreSQL backend.</li>
+                    <li>Prototyped UI/UX in Figma and led development using Agile sprints with version control collaboration.</li>
+                </ul>
+            </div>
+
+            <div class="project-item">
+                <div class="item-header">
+                    <div class="item-title">UK Homebuyer Forecast Application (Developer & Data Engineer)</div>
+                    <div class="item-date">2025</div>
+                </div>
+                <div class="tech-stack">Python, Streamlit, pandas, numpy, statsmodels, Plotly, ReportLab</div>
+                <ul>
+                    <li>Developed forecasting tool using Monte Carlo (CAGR + volatility) and ARIMA models with P5/P50/P95 confidence intervals.</li>
+                    <li>Implemented savings simulation calculator with inflation adjustment (CPIH/CPI) and affordability assessment.</li>
+                    <li>Integrated postcode lookup, multi-area comparison, PDF report generation, and caching for performance optimization.</li>
+                </ul>
+            </div>
+
+            <div class="project-item">
+                <div class="item-header">
+                    <div class="item-title">2D Game with Persistent Data (A-Level Project)</div>
+                    <div class="item-date">2023</div>
+                </div>
+                <div class="tech-stack">Godot Engine, GDScript, SQLite</div>
+                <ul>
+                    <li>Designed game mechanics with scoring system and multiple levels; integrated SQLite for persistent player progression.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Technical Skills</h2>
+            <div class="skills-section">
+                <div class="skill-item"><strong>Languages:</strong> Python, TypeScript, JavaScript, C#, Java, GDScript, Lua, SQL (PostgreSQL, SQLite)</div>
+                <div class="skill-item"><strong>Frontend & Frameworks:</strong> React, React Native, Next.js, Streamlit, Vite, Godot Engine</div>
+                <div class="skill-item"><strong>Data & Analytics:</strong> pandas, numpy, statsmodels, Plotly, Monte Carlo simulations, ARIMA time-series modeling</div>
+                <div class="skill-item"><strong>Databases & APIs:</strong> Supabase, PostgreSQL, SQLite, REST APIs (postcodes.io, UKHPI, ONS, Deepseek)</div>
+                <div class="skill-item"><strong>Tools & Practices:</strong> Git, GitHub, Figma, VS Code, Agile methodologies, SDLC, testing, requirement analysis</div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Work Experience</h2>
+            
+            <div class="experience-item">
+                <div class="item-header">
+                    <div class="item-title">Lighthouse Helper – Dungeness Old Lighthouse</div>
+                    <div class="item-date">Oct 2022 – Mar 2023</div>
+                </div>
+                <div class="item-description">
+                    Provided customer service, managed till operations, and ensured health and safety compliance.
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
