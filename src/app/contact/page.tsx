@@ -16,7 +16,7 @@ export default function ContactPage() {
             <ul className="mt-4 space-y-3 text-slate-700">
               <li>
                 <span className="block text-sm text-slate-500">Email</span>
-                <a href="mailto:you@example.com" className="font-medium hover:underline">you@example.com</a>
+                <a href="mailto:edwardsjonathan1205@gmail.com" className="font-medium hover:underline">edwardsjonathan1205@gmail.com</a>
               </li>
               <li>
                 <span className="block text-sm text-slate-500">Location</span>
@@ -24,12 +24,12 @@ export default function ContactPage() {
               </li>
               <li>
                 <span className="block text-sm text-slate-500">GitHub</span>
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="font-medium hover:underline">github.com/your-handle</a>
+                <a href="https://github.com/JonCodea" target="_blank" rel="noopener noreferrer" className="font-medium hover:underline">github.com/JonCodea</a>
               </li>
             </ul>
             <div className="mt-6">
               <a
-                href="mailto:you@example.com?subject=Hello Jonathan"
+                href="mailto:edwardsjonathan1205@gmail.com?subject=Hello Jonathan"
                 className="inline-flex items-center justify-center rounded-full bg-brand-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-brand-700"
               >
                 Email Me
@@ -95,7 +95,7 @@ export default function ContactPage() {
                 Send Message
               </button>
               <a
-                href="mailto:you@example.com"
+                href="mailto:edwardsjonathan1205@gmail.com"
                 className="inline-flex items-center justify-center rounded-full border border-brand-200 bg-white px-5 py-2.5 text-sm font-medium text-brand-800 hover:bg-brand-50"
               >
                 Or email directly

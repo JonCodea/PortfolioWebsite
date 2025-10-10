@@ -4,7 +4,7 @@ import { Reveal } from "@/components/Reveal"
 
 export function ContactSection() {
   const email = "edwardsjonathan1205@gmail.com"
-  const linkedInUrl = "https://www.linkedin.com/in/jonathan-edwards"
+  const linkedInUrl = "https://www.linkedin.com/in/jonathan-edwards-1400b730a/"
 
   return (
     <section id="contact" className="min-h-screen flex items-center justify-center py-24 bg-[#071023]">

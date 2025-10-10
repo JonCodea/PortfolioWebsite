@@ -29,7 +29,7 @@ export default function ProjectsSection() {
       desc: 'A web & mobile app that helps users beat procrastination through gamified goals and an AI chatbot for personalised productivity guidance.',
       role: 'Lead Developer',
       techStack: ['React', 'React Native', 'TypeScript', 'Supabase', 'Deepseek API', 'Figma'],
-      github: 'https://github.com/',
+      github: 'https://github.com/JonCodea',
       demo: '#',
       category: 'Frontend & Backend',
       featured: true,
@@ -43,7 +43,7 @@ export default function ProjectsSection() {
       desc: 'A Streamlit app that forecasts UK house prices and simulates savings & affordability using ARIMA and Monte Carlo models.',
       role: 'Developer & Data Engineer',
       techStack: ['Python', 'Streamlit', 'pandas', 'numpy', 'statsmodels', 'Plotly', 'ReportLab'],
-      github: 'https://github.com/',
+      github: 'https://github.com/JonCodea',
       demo: '#',
       category: 'Data',
       featured: false,
@@ -57,7 +57,7 @@ export default function ProjectsSection() {
       desc: 'A 2D Godot game implementing gameplay logic, scoring, and persistence with SQLite for player data.',
       role: 'Game Developer',
       techStack: ['Godot', 'GDScript', 'SQLite'],
-      github: 'https://github.com/',
+      github: 'https://github.com/JonCodea',
       demo: '#',
       category: 'Game',
       featured: false,
@@ -229,7 +229,7 @@ export default function ProjectsSection() {
               <div className="relative group">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full blur-xl opacity-40 group-hover:opacity-75 transition-opacity"></div>
                 <a
-                  href="https://github.com/"
+                  href="https://github.com/JonCodea"
                   className="relative inline-flex items-center gap-3 px-6 sm:px-8 py-3 sm:py-4 bg-blue-900 text-white font-bold text-base sm:text-lg rounded-full hover:scale-105 transition-transform"
                 >
                   <Github className="h-6 w-6" />

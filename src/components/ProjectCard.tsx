@@ -9,7 +9,7 @@ interface ProjectCardProps {
   demo?: string
 }
 
-export function ProjectCard({ title, desc, tags, github = 'https://github.com/', demo = '#' }: ProjectCardProps) {
+export function ProjectCard({ title, desc, tags, github = 'https://github.com/JonCodea', demo = '#' }: ProjectCardProps) {
   return (
     <article className="group relative overflow-hidden rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:shadow-md hover:-translate-y-0.5">
       <div className="flex items-start justify-between gap-4">

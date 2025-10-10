@@ -3,8 +3,8 @@ import { Mail, Linkedin, Github, MapPin } from "lucide-react"
 export default function Footer() {
   const year = new Date().getFullYear()
   const email = "edwardsjonathan1205@gmail.com"
-  const linkedInUrl = "https://www.linkedin.com/in/jonathan-edwards"
-  const githubUrl = "https://github.com/"
+  const linkedInUrl = "https://www.linkedin.com/in/jonathan-edwards-1400b730a/"
+  const githubUrl = "https://github.com/JonCodea"
 
   return (
     <footer className="bg-[#071023] text-white border-t border-white/10">
