@@ -25,7 +25,7 @@ export default function ProjectsSection() {
   }> = [
     {
       id: 1,
-      title: 'Progresso — Self-Improvement App with AI Integration (2025)',
+      title: 'Progresso - Self-Improvement App with AI Integration (2025)',
       desc: 'A web & mobile app that helps users beat procrastination through gamified goals and an AI chatbot for personalised productivity guidance.',
       role: 'Lead Developer',
       techStack: ['React', 'React Native', 'TypeScript', 'Supabase', 'Deepseek API', 'Figma'],
@@ -39,8 +39,8 @@ export default function ProjectsSection() {
     },
     {
       id: 2,
-      title: 'Events Meets World — Event Vendor Marketplace (2025)',
-      desc: 'A custom WordPress event booking platform built from scratch with two user roles — vendors list services and customers browse, basket, and book. No page builders; all logic in custom PHP templates.',
+      title: 'Events Meets World - Event Vendor Marketplace (2025)',
+      desc: 'A custom WordPress event booking platform built from scratch with two user roles - vendors list services and customers browse, basket, and book. No page builders; all logic in custom PHP templates.',
       role: 'Full-Stack Developer (Group Eagle)',
       techStack: ['WordPress', 'PHP', 'ACF', 'CPT UI', 'Custom CSS'],
       github: 'https://github.com/JonCodea',
