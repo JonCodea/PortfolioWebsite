@@ -30,7 +30,7 @@ export default function ProjectsSection() {
       role: 'Lead Developer',
       techStack: ['React', 'React Native', 'TypeScript', 'Supabase', 'Deepseek API', 'Figma'],
       github: 'https://github.com/JonCodea',
-      demo: '#',
+      demo: 'https://progresso-web-app.vercel.app/',
       category: 'Frontend & Backend',
       featured: true,
       color: 'from-blue-400 to-blue-600',
@@ -39,6 +39,20 @@ export default function ProjectsSection() {
     },
     {
       id: 2,
+      title: 'Events Meets World — University Event Platform (2025)',
+      desc: 'A full-stack university event platform enabling students to discover, register for, and manage campus events, with an admin dashboard for organisers.',
+      role: 'Full-Stack Developer',
+      techStack: ['PHP', 'MySQL', 'JavaScript', 'HTML', 'CSS', 'Apache'],
+      github: 'https://github.com/JonCodea',
+      demo: 'https://eventsmeetsworld-eagle.webhosting.canterbury.ac.uk/',
+      category: 'Frontend & Backend',
+      featured: true,
+      color: 'from-blue-400 to-blue-600',
+      image: '/EMWImage.png',
+      position: 'right'
+    },
+    {
+      id: 3,
       title: 'UK Homebuyer Forecast App (2025)',
       desc: 'A Streamlit app that forecasts UK house prices and simulates savings & affordability using ARIMA and Monte Carlo models.',
       role: 'Developer & Data Engineer',
@@ -49,10 +63,10 @@ export default function ProjectsSection() {
       featured: false,
       color: 'from-blue-400 to-blue-600',
       image: '/HouseForecaster.png',
-      position: 'right'
+      position: 'left'
     },
     {
-      id: 3,
+      id: 4,
       title: "A-Level Computing — 2D Game in Godot (2023)",
       desc: 'A 2D Godot game implementing gameplay logic, scoring, and persistence with SQLite for player data.',
       role: 'Game Developer',
@@ -63,7 +77,7 @@ export default function ProjectsSection() {
       featured: false,
       color: 'from-blue-400 to-blue-600',
       image: '/GameImage.jpg',
-      position: 'left'
+      position: 'right'
     }
   ]
 
